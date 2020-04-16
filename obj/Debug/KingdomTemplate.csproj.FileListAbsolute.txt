@@ -1,0 +1,6 @@
+C:\Users\me\Desktop\Bannerlord\KingdomTemplate\obj\Debug\KingdomTemplate.csprojResolveAssemblyReference.cache
+C:\Users\me\Desktop\Bannerlord\KingdomTemplate\Build\KingdomTemplate\SubModule.xml
+C:\Users\me\Desktop\Bannerlord\KingdomTemplate\Build\KingdomTemplate\KingdomTemplate.dll
+C:\Users\me\Desktop\Bannerlord\KingdomTemplate\Build\KingdomTemplate\KingdomTemplate.pdb
+C:\Users\me\Desktop\Bannerlord\KingdomTemplate\obj\Debug\KingdomTemplate.dll
+C:\Users\me\Desktop\Bannerlord\KingdomTemplate\obj\Debug\KingdomTemplate.pdb

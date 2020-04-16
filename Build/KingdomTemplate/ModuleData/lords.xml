@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter 
+	id="hunter_0" 
+	name="Suuhl" 
+	age="30" 
+	voice="curt"
+	battleTemplate="NPCCharacter.imperial_elite_cataphract" 
+	civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" 
+	is_hero="true" 
+	culture="Culture.empire" 
+	default_group="Cavalry"
+	occupation="Lord"
+	>
+		<face>
+		  <!--face_key value="000c129e007c03cd7748da3b574b9988d86dbd6945b4b664644589c5283414bc0006b73aba7661cb0000037f0000000f00000037049140010000000000008003" /-->
+<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001CB80CCE14378279F664866743888A7577D6605BC69603C4B647398C85D0370197761309A7497300000000000000000000000000000000000000003B247002"  />
+		</face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+		<Traits>
+		</Traits>
+		<equipmentSet></equipmentSet>
+	</NPCCharacter>
+
+	<NPCCharacter 
+	id="hunter_1" 
+	name="Frig"
+	is_female="true"
+	age="22" 
+	voice="curt"
+	battleTemplate="NPCCharacter.imperial_elite_cataphract" 
+	civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" 
+	is_hero="true" 
+	culture="Culture.empire" 
+	default_group="Cavalry"
+	occupation="Lord"
+	>
+		<face>
+		  <!--face_key value="000c129e007c03cd7748da3b574b9988d86dbd6945b4b664644589c5283414bc0006b73aba7661cb0000037f0000000f00000037049140010000000000008003" /-->
+		  <BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C4C0CC00010046E8572447785A5738AAB8662AA909207C4FC4D0F8B7FF0820177761307A7497300000000000000000000000000000000000000003AF41003"  />
+		</face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+		<Traits>
+		</Traits>
+		<equipmentSet></equipmentSet>
+	</NPCCharacter>
+
+	<NPCCharacter 
+	id="hunter_2" 
+	name="Rix" 
+	age="22" 
+	voice="curt"
+	battleTemplate="NPCCharacter.imperial_elite_cataphract" 
+	civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" 
+	is_hero="true" 
+	culture="Culture.battania" 
+	default_group="Cavalry"
+	occupation="Lord"
+	>
+		<face>
+		  <!--face_key value="000c129e007c03cd7748da3b574b9988d86dbd6945b4b664644589c5283414bc0006b73aba7661cb0000037f0000000f00000037049140010000000000008003" /-->
+		  <BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="00002C07000024CA9C766434475CDCBA795ADCA2998A6C5A75C8892B4888835301A776130A64663400000000000000000000000000000000000000003D5C6042"  />
+		</face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+		<Traits>
+		</Traits>
+		<equipmentSet></equipmentSet>
+	</NPCCharacter>
+
+	<NPCCharacter 
+	id="hunter_3" 
+	name="Laeti"
+	is_female="true"
+	age="22" 
+	voice="curt"
+	battleTemplate="NPCCharacter.imperial_elite_cataphract" 
+	civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" 
+	is_hero="true" 
+	culture="Culture.vlandia" 
+	default_group="Cavalry"
+	occupation="Lord"
+	>
+		<face>
+		  <!--face_key value="000c129e007c03cd7748da3b574b9988d86dbd6945b4b664644589c5283414bc0006b73aba7661cb0000037f0000000f00000037049140010000000000008003" /-->
+		<BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="0000AC01400010064636648E6774B8354B5D86629A713207D6EB7B2C8AD4F6670177761307805425000000000000000000000000000000000000000064F41004"  />
+		</face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+		<Traits>
+		</Traits>
+		<equipmentSet></equipmentSet>
+	</NPCCharacter>
+
+	<NPCCharacter 
+	id="hunter_4" 
+	name="Hirtius" 
+	age="22" 
+	voice="curt"
+	battleTemplate="NPCCharacter.imperial_elite_cataphract" 
+	civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" 
+	is_hero="true" 
+	culture="Culture.empire" 
+	default_group="Cavalry"
+	occupation="Lord"
+	>
+		<face>
+		  <!--face_key value="000c129e007c03cd7748da3b574b9988d86dbd6945b4b664644589c5283414bc0006b73aba7661cb0000037f0000000f00000037049140010000000000008003" /-->
+		  <BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C900FC0003001767664876753888AA85B7D385A685A63884BCB488EEB8A53017776130774E94600000000000000000000000000000000000000003AF43002"  />
+		</face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+		<Traits>
+		</Traits>
+		<equipmentSet></equipmentSet>
+	</NPCCharacter>
+
+	<NPCCharacter 
+	id="hunter_5" 
+	name="Demos" 
+	age="22" 
+	voice="curt"
+	battleTemplate="NPCCharacter.imperial_elite_cataphract" 
+	civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" 
+	is_hero="true" 
+	culture="Culture.empire" 
+	default_group="Cavalry"
+	occupation="Lord"
+	>
+		<face>
+		  <!--face_key value="000c129e007c03cd7748da3b574b9988d86dbd6945b4b664644589c5283414bc0006b73aba7661cb0000037f0000000f00000037049140010000000000008003" /-->
+		  <BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001C840E40003012947664876753888AAE8A0866ABE7558998A9E76761BE165B0177761307C897B700000000000000000000000000000000000000003AF480C2"  />
+		</face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+		<Traits>
+		</Traits>
+		<equipmentSet></equipmentSet>
+	</NPCCharacter>
+
+	<NPCCharacter 
+	id="hunter_6" 
+	name="Maurus" 
+	age="22" 
+	voice="curt"
+	battleTemplate="NPCCharacter.imperial_elite_cataphract" 
+	civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" 
+	is_hero="true" 
+	culture="Culture.empire" 
+	default_group="Cavalry"
+	occupation="Lord"
+	>
+		<face>
+		  <!--face_key value="000c129e007c03cd7748da3b574b9988d86dbd6945b4b664644589c5283414bc0006b73aba7661cb0000037f0000000f00000037049140010000000000008003" /-->
+		  <BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="001CA80CC000000DA8B8A871875B7A99BB682C87788A78A973BB9538668A71810177761307778E5800000000000000000000000000000000000000003AF430C2"  />
+		</face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+		<Traits>
+		</Traits>
+		<equipmentSet></equipmentSet>
+	</NPCCharacter>
+
+	<NPCCharacter 
+	id="hunter_7" 
+	name="Rol" 
+	age="22" 
+	voice="curt"
+	battleTemplate="NPCCharacter.imperial_elite_cataphract" 
+	civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" 
+	is_hero="true" 
+	culture="Culture.sturgia" 
+	default_group="Cavalry"
+	occupation="Lord"
+	>
+		<face>
+		  <!--face_key value="000c129e007c03cd7748da3b574b9988d86dbd6945b4b664644589c5283414bc0006b73aba7661cb0000037f0000000f00000037049140010000000000008003" /-->
+		  <BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="0005980140000110557664884754DCBA95838A684B36926C5A8644388A67DD4501B776130BA7A7B600000000000000000000000000000000000000002B7440C2"  />
+		</face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+		<Traits>
+		</Traits>
+		<equipmentSet></equipmentSet>
+	</NPCCharacter>
+
+	<NPCCharacter 
+	id="hunter_8" 
+	name="Borji"
+	is_female="true"
+	age="22" 
+	voice="curt"
+	battleTemplate="NPCCharacter.imperial_elite_cataphract" 
+	civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" 
+	is_hero="true" 
+	culture="Culture.khuzait" 
+	default_group="Cavalry"
+	occupation="Lord"
+	>
+		<face>
+		  <!--face_key value="000c129e007c03cd7748da3b574b9988d86dbd6945b4b664644589c5283414bc0006b73aba7661cb0000037f0000000f00000037049140010000000000008003" /-->
+		  <BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="0005F80E40001010B87388B6EB77822959B28B3ABDFE340CD9CD8D7B7811E0B1015776130596723B000000000000000000000000000000000000000054A41003"  />
+		</face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+		<Traits>
+		</Traits>
+		<equipmentSet></equipmentSet>
+	</NPCCharacter>
+
+	<NPCCharacter 
+	id="hunter_9" 
+	name="Mehmet" 
+	age="22" 
+	voice="curt"
+	battleTemplate="NPCCharacter.imperial_elite_cataphract" 
+	civilianTemplate="NPCCharacter.empire_unarmored_noble_equipment" 
+	is_hero="true" 
+	culture="Culture.aserai" 
+	default_group="Cavalry"
+	occupation="Lord"
+	>
+		<face>
+		  <!--face_key value="000c129e007c03cd7748da3b574b9988d86dbd6945b4b664644589c5283414bc0006b73aba7661cb0000037f0000000f00000037049140010000000000008003" /-->
+		  <BodyProperties version="4" age="25.84" weight="0.5" build="0.5"  key="0028700FC0001001BA756445533377873CD1830E9961B21ACAD9CB6A7C1645E90177761307B705E8000000000000000000000000000000000000000042F41002"  />
+		</face>
+    <skills>
+      <skill id="Athletics"
+             value="60" />
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="60" />
+      <skill id="TwoHanded"
+             value="100" />
+      <skill id="Polearm"
+             value="45" />
+      <skill id="Bow"
+             value="45" />
+      <skill id="Crossbow"
+             value="15" />
+      <skill id="Throwing"
+             value="100" />
+    </skills>
+		<Traits>
+		</Traits>
+		<equipmentSet></equipmentSet>
+	</NPCCharacter>
+</NPCCharacters>

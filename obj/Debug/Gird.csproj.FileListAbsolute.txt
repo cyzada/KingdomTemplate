@@ -1,0 +1,10 @@
+C:\Users\me\Desktop\Bannerlord\Gird\bin\Win64_Shipping_Client\SubModule.xml
+C:\Users\me\Desktop\Bannerlord\Gird\bin\Win64_Shipping_Client\Gird.dll
+C:\Users\me\Desktop\Bannerlord\Gird\bin\Win64_Shipping_Client\Gird.pdb
+C:\Users\me\Desktop\Bannerlord\Gird\obj\Debug\Gird.dll
+C:\Users\me\Desktop\Bannerlord\Gird\obj\Debug\Gird.pdb
+C:\Users\me\Desktop\Bannerlord\Gird\Build\Gird\SubModule.xml
+C:\Users\me\Desktop\Bannerlord\Gird\Build\Gird\Gird.dll
+C:\Users\me\Desktop\Bannerlord\Gird\Build\Gird\Gird.pdb
+C:\Users\me\Desktop\Bannerlord\Gird\Build\Gird\0Harmony.dll
+C:\Users\me\Desktop\Bannerlord\Gird\obj\Debug\Gird.csprojResolveAssemblyReference.cache

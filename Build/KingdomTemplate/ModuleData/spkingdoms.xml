@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Kingdoms>
+  <Kingdom 
+  id="bandofhunters" 
+  owner="Hero.hunter_0" 
+  banner_key="19.14.14.1836.1836.764.764.1.0.0.337.121.0.400.400.764.764.0.0.0.423.121.0.125.125.764.508.0.0.0.443.121.0.150.150.766.551.0.0.0" 
+  primary_banner_color="0xff793191" 
+  secondary_banner_color="0xffFCDE90" 
+  label_color="FF850C6D" 
+  color="FF4E3A55" 
+  color2="FFDE9953" 
+  alternative_color="FFffffff" 
+  alternative_color2="FF660653" 
+  culture="Culture.hunters" 
+  settlement_banner_mesh="encounter_flag_a" 
+  flag_mesh="info_screen_flags_b" 
+  name="Band of Hunters" 
+  short_name="Hunters" 
+  title="Band of Hunters" 
+  ruler_title="Lord Marshall" 
+  text="The Band of Hunters is a confederation of retired veterans working to protect the citizens of the land.">
+    <relationships>
+      <relationship kingdom="Kingdom.khuzait" value="1" isAlly="true" />
+      <relationship kingdom="Kingdom.battania" value="1" isAlly="true" />
+      <relationship kingdom="Kingdom.vlandia" value="1" isAlly="true" />
+      <relationship kingdom="Kingdom.aserai" value="1" isAlly="true" />
+      <relationship kingdom="Kingdom.sturgia" value="1" isAlly="true" />
+      <relationship kingdom="Kingdom.empire_s" value="1" isAlly="true" />
+      <relationship kingdom="Kingdom.empire_w" value="1" isAlly="true" />
+      <relationship kingdom="Kingdom.empire" value="1" isAlly="true" />
+    </relationships>
+    <policies>
+    </policies>
+  </Kingdom>
+</Kingdoms>

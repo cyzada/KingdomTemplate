@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+	<Hero id="hunter_0" is_noble="true" faction="Faction.headhunters" text="Lord Marshall of the Band of Hunters." />
+	<Hero id="hunter_1" is_noble="true" faction="Faction.ironcrown" text="First Spear of the Band of Hunters." />
+	<Hero id="hunter_2" is_noble="true" faction="Faction.ironcrown" text="First Spear of the Band of Hunters." />
+	<Hero id="hunter_3" is_noble="true" faction="Faction.ironcrown" text="First Spear of the Band of Hunters." />
+	<Hero id="hunter_4" is_noble="true" faction="Faction.headhunters" text="First Spear of the Band of Hunters." />
+	<Hero id="hunter_5" is_noble="true" faction="Faction.headhunters" text="First Spear of the Band of Hunters." />
+	<Hero id="hunter_6" is_noble="true" faction="Faction.headhunters" text="First Spear of the Band of Hunters." />
+	<Hero id="hunter_7" is_noble="true" faction="Faction.littlemouse" text="First Spear of the Band of Hunters." />
+	<Hero id="hunter_8" is_noble="true" faction="Faction.littlemouse" text="First Spear of the Band of Hunters." />
+	<Hero id="hunter_9" is_noble="true" faction="Faction.littlemouse" text="First Spear of the Band of Hunters." />
+</Heroes>

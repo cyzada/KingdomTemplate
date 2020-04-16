@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Headhunters>
+		<Headhunter>
+			<Name>Suuhl</Name>
+			<Settlement>castle_EN1</Settlement>
+		</Headhunter>
+		<Headhunter>
+			<Name>Frig</Name>
+			<Settlement>castle_EN1</Settlement>
+		</Headhunter>
+		<Headhunter>
+			<Name>Rix</Name>
+			<Settlement>town_B2</Settlement>
+		</Headhunter>
+		<Headhunter>
+			<Name>Laeti</Name>
+			<Settlement>town_V3</Settlement>
+		</Headhunter>
+		<Headhunter>
+			<Name>Hirtius</Name>
+			<Settlement>town_EW6</Settlement>
+		</Headhunter>
+		<Headhunter>
+			<Name>Demos</Name>
+			<Settlement>town_ES4</Settlement>
+		</Headhunter>
+		<Headhunter>
+			<Name>Maurus</Name>
+			<Settlement>town_EN2</Settlement>
+		</Headhunter>
+		<Headhunter>
+			<Name>Rol</Name>
+			<Settlement>castle_S5</Settlement>
+		</Headhunter>
+		<Headhunter>
+			<Name>Borji</Name>
+			<Settlement>town_K4</Settlement>
+		</Headhunter>
+		<Headhunter>
+			<Name>Mehmet</Name>
+			<Settlement>town_A3</Settlement>
+		</Headhunter>
+	</Headhunters>
+</root>

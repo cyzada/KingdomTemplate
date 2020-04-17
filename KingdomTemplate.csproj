@@ -247,6 +247,7 @@
     <Compile Include="DataSynchronizer.cs" />
     <Compile Include="KingdomTemplateBehavior.cs" />
     <Compile Include="Main.cs" />
+    <Compile Include="Models\KingdomConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

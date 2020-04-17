@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<Vaalians>
+		<Vaalian>
+			<Name>Guy01</Name>
+			<Settlement>town_EW4</Settlement>
+		</Vaalian>
+	</Vaalians>
+</root>

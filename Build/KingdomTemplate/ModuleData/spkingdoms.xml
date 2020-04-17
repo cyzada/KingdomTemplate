@@ -32,4 +32,27 @@
     <policies>
     </policies>
   </Kingdom>
+  
+  <Kingdom 
+  id="vaal" 
+  owner="Hero.vaal_0" 
+  banner_key="19.14.14.1836.1836.764.764.1.0.0.337.121.0.400.400.764.764.0.0.0.423.121.0.125.125.764.508.0.0.0.443.121.0.150.150.766.551.0.0.0" 
+  primary_banner_color="0xff793191" 
+  secondary_banner_color="0xffFCDE90" 
+  label_color="FF850C6D" 
+  color="FF4E3A55" 
+  color2="FFDE9953" 
+  alternative_color="FFffffff" 
+  alternative_color2="FF660653" 
+  culture="Culture.empire" 
+  settlement_banner_mesh="encounter_flag_a" 
+  flag_mesh="info_screen_flags_b" 
+  name="Vaal" 
+  short_name="Vaal" 
+  title="Vaalian Horde" 
+  ruler_title="Master" 
+  text="You don't like them, and I don't either">
+    <relationships></relationships>
+    <policies></policies>
+  </Kingdom>
 </Kingdoms>

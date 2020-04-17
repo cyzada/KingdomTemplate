@@ -24,7 +24,7 @@ namespace KingdomTemplate
             {
                 if (obj.StringId.Equals("rebuild_player_clan_storymode_quest"))
                 {
-                    Main.SetupHeadhunterParties(Campaign.Current.MobileParties);
+                    Main.SetupKingdomParties(Campaign.Current.MobileParties);
                 }
             }
         }

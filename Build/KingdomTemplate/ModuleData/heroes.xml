@@ -10,4 +10,5 @@
 	<Hero id="hunter_7" is_noble="true" faction="Faction.littlemouse" text="First Spear of the Band of Hunters." />
 	<Hero id="hunter_8" is_noble="true" faction="Faction.littlemouse" text="First Spear of the Band of Hunters." />
 	<Hero id="hunter_9" is_noble="true" faction="Faction.littlemouse" text="First Spear of the Band of Hunters." />
+	<Hero id="vaal_0" is_noble="true" faction="Faction.horde" text="That guy." />
 </Heroes>

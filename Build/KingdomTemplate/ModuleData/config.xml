@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<KingdomConfig>
+		<KingdomId>bandofhunters</KingdomId>
+		<LocationsFileName>locations_headhunter</LocationsFileName>
+		<KingdomLordCollection>Headhunters</KingdomLordCollection>
+		<KingdomLord>Headhunter</KingdomLord>
+		<kingdomLeaderId>hunter_0</kingdomLeaderId>
+	</KingdomConfig>
+	
+	<KingdomConfig>
+		<KingdomId>vaal</KingdomId>
+		<LocationsFileName>locations_vaal</LocationsFileName>
+		<KingdomLordCollection>Vaalians</KingdomLordCollection>
+		<KingdomLord>Vaalian</KingdomLord>
+		<kingdomLeaderId>vaal_0</kingdomLeaderId>
+	</KingdomConfig>
+</root>

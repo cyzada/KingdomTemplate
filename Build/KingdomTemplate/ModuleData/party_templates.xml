@@ -9,4 +9,14 @@
 		  <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.imperial_palatine_guard" />
 		</stacks>
 	</MBPartyTemplate>
+	
+		<MBPartyTemplate id="kingdom_hero_party_vaal_template" >
+		<stacks>
+		  <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.imperial_menavliaton" />
+		  <PartyTemplateStack min_value="5" max_value="10" troop="NPCCharacter.imperial_elite_cataphract" />
+		  <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.imperial_cataphract" />
+		  <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.imperial_legionary" />
+		  <PartyTemplateStack min_value="10" max_value="15" troop="NPCCharacter.imperial_palatine_guard" />
+		</stacks>
+	</MBPartyTemplate>
 </partyTemplates>

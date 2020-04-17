@@ -4,42 +4,62 @@
 		<Headhunter>
 			<Name>Suuhl</Name>
 			<Settlement>castle_EN1</Settlement>
+			<XOffset>5</XOffset>
+			<YOffset>5</YOffset>
 		</Headhunter>
 		<Headhunter>
 			<Name>Frig</Name>
 			<Settlement>castle_EN1</Settlement>
+			<XOffset>5</XOffset>
+			<YOffset>5</YOffset>
 		</Headhunter>
 		<Headhunter>
 			<Name>Rix</Name>
 			<Settlement>town_B2</Settlement>
+			<XOffset>5</XOffset>
+			<YOffset>5</YOffset>
 		</Headhunter>
 		<Headhunter>
 			<Name>Laeti</Name>
 			<Settlement>town_V3</Settlement>
+			<XOffset>5</XOffset>
+			<YOffset>5</YOffset>
 		</Headhunter>
 		<Headhunter>
 			<Name>Hirtius</Name>
 			<Settlement>town_EW6</Settlement>
+			<XOffset>5</XOffset>
+			<YOffset>5</YOffset>
 		</Headhunter>
 		<Headhunter>
 			<Name>Demos</Name>
 			<Settlement>town_ES4</Settlement>
+			<XOffset>5</XOffset>
+			<YOffset>5</YOffset>
 		</Headhunter>
 		<Headhunter>
 			<Name>Maurus</Name>
 			<Settlement>town_EN2</Settlement>
+			<XOffset>5</XOffset>
+			<YOffset>5</YOffset>
 		</Headhunter>
 		<Headhunter>
 			<Name>Rol</Name>
 			<Settlement>castle_S5</Settlement>
+			<XOffset>5</XOffset>
+			<YOffset>5</YOffset>
 		</Headhunter>
 		<Headhunter>
 			<Name>Borji</Name>
 			<Settlement>town_K4</Settlement>
+			<XOffset>5</XOffset>
+			<YOffset>5</YOffset>
 		</Headhunter>
 		<Headhunter>
 			<Name>Mehmet</Name>
 			<Settlement>town_A3</Settlement>
+			<XOffset>-5</XOffset>
+			<YOffset>5</YOffset>
 		</Headhunter>
 	</Headhunters>
 </root>

@@ -248,6 +248,7 @@
     <Compile Include="KingdomTemplateBehavior.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Models\KingdomConfig.cs" />
+    <Compile Include="Models\KingdomLocation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

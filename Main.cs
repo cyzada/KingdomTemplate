@@ -27,8 +27,6 @@ namespace KingdomTemplate
         protected override void OnBeforeInitialModuleScreenSetAsRoot() // Main Menu.
         {
             base.OnBeforeInitialModuleScreenSetAsRoot();
-            // Clear hunterLocations, just in case, and then initialize it
-            // hunterLocations.Clear();
             Initialize();
         }
         
@@ -153,7 +151,7 @@ namespace KingdomTemplate
             {
                 KingdomConfigs.ForEach(kC =>
                 {
-                    Dictionary<string,string> lordLocations = LoadLocationsForKingdomConfiguration(kC);
+                    Dictionary<string, KingdomLocation> lordLocations = LoadLocationsForKingdomConfiguration(kC);
                     if (!lordLocations.IsEmpty() && lordLocations.Count > 0)
                     {
                         string[] names = new string[lordLocations.Count];
@@ -167,40 +165,30 @@ namespace KingdomTemplate
                                 MobileParty p = existingParties[lord];
                                 if (p?.Leader?.Name != null)
                                 {
-                                    Settlement targetSettlement = Settlement.Find(lordLocations[lord]);
-                                    float offset = 5.0f;
-
-                                    if (targetSettlement.StringId != null && targetSettlement.StringId.Equals("town_A3"))
+                                    KingdomLocation location = lordLocations[lord];
+                                    Settlement targetSettlement = Settlement.Find(location.SettlementName);
+                                    
+                                    // Here we assign ownership of the targetSettlement to the KingdomLeaderId defined in config.xml
+                                    if (p.Leader.StringId.Equals(kC.kingdomLeaderId))
                                     {
-                                        // This is done for a specific city so the party doesn't spawn somewhere they can't navigate out of
-                                        p.Position2D = new Vec2(targetSettlement.Position2D.X - offset, targetSettlement.Position2D.Y + offset);
-                                        p.SetMovePatrolAroundSettlement(targetSettlement);
+                                        TaleWorlds.CampaignSystem.Actions.ChangeOwnerOfSettlementAction.ApplyByDefault(p.LeaderHero, targetSettlement);
                                     }
-                                    else
-                                    {
-                                        // Here we assign ownership of the targetSettlement to the KingdomLeaderId defined in config.xml
-                                        if (p.Leader.StringId.Equals(kC.kingdomLeaderId))
-                                        {
-                                            TaleWorlds.CampaignSystem.Actions.ChangeOwnerOfSettlementAction.ApplyByDefault(p.LeaderHero, targetSettlement);
-                                        }
-                                        // Move the party's position
-                                        p.Position2D = new Vec2(targetSettlement.Position2D.X, targetSettlement.Position2D.Y - offset);
-                                        // Make them patrol around their location
-                                        p.SetMovePatrolAroundSettlement(targetSettlement);
-                                    }
+                                    // Move the party's position, use the XOffset and YOffset from the relevant locations.xml
+                                    p.Position2D = new Vec2(targetSettlement.Position2D.X + location.XOffset, targetSettlement.Position2D.Y + location.YOffset);
+                                    // Make them patrol around their location
+                                    p.SetMovePatrolAroundSettlement(targetSettlement);
                                 }
                             }
                         });
                     }
-                    InformationManager.DisplayMessage(new InformationMessage("KingdomTemplate: Processed Lord parties.", Color.FromUint(4282569842U)));
                 });
             }
         }
 
-        private static Dictionary<string, string> LoadLocationsForKingdomConfiguration(KingdomConfig config)
+        private static Dictionary<string, KingdomLocation> LoadLocationsForKingdomConfiguration(KingdomConfig config)
         {
             string fileLocation = baseXDocPath + config.locationFilename + ".xml";
-            Dictionary<string, string> lordLocations = new Dictionary<string, string>();
+            Dictionary<string, KingdomLocation> lordLocations = new Dictionary<string, KingdomLocation>();
             if (File.Exists(fileLocation))
             {
                 try
@@ -218,11 +206,20 @@ namespace KingdomTemplate
                             {
                                 XElement current = elementrator.Current;
                                 if (current?.Element("Name") != null &&
-                                    current.Element("Settlement") != null)
+                                    current.Element("Settlement") != null &&
+                                    current.Element("XOffset") != null &&
+                                    current.Element("YOffset") != null)
                                 {
                                     string heroName = current.Element("Name")?.Value;
                                     string heroLocation = current.Element("Settlement")?.Value;
-                                    lordLocations.Add(heroName, heroLocation);
+                                    int xOffset = 0;
+                                    int yOffset = 0;
+
+                                    if (Int32.TryParse(current.Element("XOffset")?.Value, out xOffset) &&
+                                        Int32.TryParse(current.Element("YOffset")?.Value, out yOffset))
+                                    {
+                                        lordLocations.Add(heroName, new KingdomLocation(heroLocation, xOffset, yOffset));   
+                                    }
                                 }
                             }
                         }

@@ -4,6 +4,9 @@
 		<Vaalian>
 			<Name>Guy01</Name>
 			<Settlement>town_EW4</Settlement>
+			<!-- This is the XY offset when spawning the Lord at the Settlement.  Sometimes they can spawn in the ocean, or in an un-navigable location, this can fix that. -->
+			<XOffset>-15</XOffset>
+			<YOffset>10</YOffset>
 		</Vaalian>
 	</Vaalians>
 </root>
